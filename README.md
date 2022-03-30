@@ -11,7 +11,7 @@ Jointly with NTIRE workshop we have a challenge on Efficient Super-Resolution, t
 
 **[Track 3: Fidelity](https://competitions.codalab.org/competitions/20169)**, the aim is to obtain a network design / solution with the best fidelity (PSNR) while being constrained to maintain or improve over IMDN ([Hui et al, 2017](https://arxiv.org/abs/1909.11856)) in terms of number of parameters and inference time on a common GPU (ie. Titan Xp).
 
-## faster-RFDN
+## Faster-RFDN
 
 * Number of parameters: 376432 (0.37M)
 
@@ -28,6 +28,4 @@ Jointly with NTIRE workshop we have a challenge on Efficient Super-Resolution, t
 Run [test_demo.py](test_demo.py) to test the model
 
 
-=======
-# FasterRFDB
->>>>>>> 2a7e6988efa0ffc24edecda51097b45b8532623a
+
