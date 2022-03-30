@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## [NTIRE 2022 Workshop and Challenge](https://data.vision.ee.ethz.ch/cvl/ntire22/) @ CVPR 2022
 ## Efficient Super-Resolution Challenge
 
@@ -21,7 +21,7 @@ Jointly with NTIRE workshop we have a challenge on Efficient Super-Resolution, t
 
 * Average PSNR on validation data: 29.00671 dB
 
-* Average inference time (Titan Xp) on validation data: 0.02 second(self-test) 
+* Average inference time (Titan Xp) on validation data: 0.03 second(self-test) 
 
     Note: The best average inference time among three trials is selected.
 
