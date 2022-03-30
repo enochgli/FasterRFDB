@@ -17,12 +17,12 @@ def main():
     # basic settings
     # --------------------------------
     # testsets = 'DIV2K'
-    testsets = '/data/srdata'
+    testsets = '/home/thor/projects/data/super_resolution/DIV2K'
     testset_L = 'DIV2K_valid_LR_bicubic'
 
     torch.cuda.current_device()
     torch.cuda.empty_cache()
-    torch.backends.cudnn.benchmark = False
+    torch.backends.cudnn.benchmark = True
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     # --------------------------------
